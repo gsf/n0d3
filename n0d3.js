@@ -1,4 +1,5 @@
 var Campfire = require('campfire').Campfire;
+var log = require('util').log;
 
 
 function N0d3 () {
@@ -14,7 +15,7 @@ N0d3.prototype.join = function (joins) {
       campfire.join(opts.room, function (err, room) {
         if (err) throw err;
         n0d3.plugins.forEach(function (plugin) {
-          plugin(room);
+          plugin(room, log);
         });
       });
     }
