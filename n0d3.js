@@ -13,7 +13,6 @@ N0d3.prototype.join = function (joins) {
       campfire = new Campfire(opts);
       campfire.join(opts.room, function (err, room) {
         if (err) throw err;
-        console.log(n0d3.plugins);
         n0d3.plugins.forEach(function (plugin) {
           plugin(room);
         });
@@ -24,9 +23,7 @@ N0d3.prototype.join = function (joins) {
 
 N0d3.prototype.use = function () {
   var args = Array.prototype.slice.call(arguments);
-  console.log('use:', args);
   this.plugins = this.plugins.concat(args);
-  console.log('this.plugins:', this.plugins);
 };
 
 module.exports = function () {
