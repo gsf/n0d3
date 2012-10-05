@@ -1,9 +1,9 @@
 {
   "name": "n0d3",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A robot library",
   "homepage": "https://github.com/gsf/n0d3",
-  "author" : "Gabriel Farrell <g@grrawr.com>",
+  "author": "Gabriel Farrell <g@grrawr.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/gsf/n0d3.git"
