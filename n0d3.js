@@ -4,7 +4,7 @@ function N0d3 () {
 
 N0d3.prototype.join = function (joins) {
   for (var key in joins) {
-    require('./protocols/'+key)(joins[key], this);
+    require('./adapters/'+key)(joins[key], this);
   }
 };
 
