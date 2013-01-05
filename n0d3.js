@@ -4,7 +4,6 @@ function Bot () {
 
 Bot.prototype.name = 'n0d3';
 Bot.prototype.commandPrefix = '.';
-Bot.prototype.log = require('util').log;
 
 Bot.prototype.use = function (/* plugins */) {
   var args = Array.prototype.slice.call(arguments);
