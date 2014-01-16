@@ -1,4 +1,4 @@
 n0d3
 ====
 
-A robot library
+An IRC robot library
