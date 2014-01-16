@@ -10,6 +10,6 @@
   },
   "main": "n0d3.js",
   "dependencies": {
-    "irc": "0.3.4"
+    "irc": "git://github.com/martynsmith/node-irc.git#ed2ef9"
   }
 }
